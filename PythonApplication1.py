@@ -3,11 +3,9 @@ s = "*" * 30
 print(s)
 print("New project")
 print(s)
-# Запрос числа от пользователя
-num = int(input("Введите число: "))
+num = int(input("Enter value: "))
 
-# Проверка на четность
 if num % 2 == 0:
-    print(num, "является четным числом.")
+    print(num, "Yes.")
 else:
-    print(num, "является нечетным числом.")
+    print(num, "No")
